@@ -9,7 +9,7 @@
 - .gitignore: Node
 - License: MIT License
 - Homepage: https://patente.ar/api-recall
-- Description: Ejemplos de integracion para consultar campanas de recall por VIN con la API de patente.ar.
+- Description: API de recall vehicular por VIN para posventa, seguros, garantias y CRM en Argentina.
 
 ## Topics
 
@@ -36,7 +36,7 @@ api, argentina, recall, vin, automotor, seguridad-vial, webhooks, openapi
 ```bash
 GH_TOKEN="$(security find-generic-password -a patente-ar -s codex-github:doc-apis-github -w)"
 gh repo edit patente-ar/api-recall-argentina \
-  --description "Ejemplos de integracion para consultar campanas de recall por VIN con la API de patente.ar." \
+  --description "API de recall vehicular por VIN para posventa, seguros, garantias y CRM en Argentina." \
   --homepage "https://patente.ar/api-recall" \
   --enable-issues=true
 gh repo edit patente-ar/api-recall-argentina --add-topic "api,argentina,recall,vin,automotor,seguridad-vial,webhooks,openapi"
